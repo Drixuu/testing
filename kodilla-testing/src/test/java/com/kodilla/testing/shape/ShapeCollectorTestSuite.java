@@ -43,9 +43,9 @@ public class ShapeCollectorTestSuite {
             shapeCollector.addFigure(circle);
             shapeCollector.addFigure(triangle);
             //When
-            shapeCollector.removeFigure(square);
+            shapeCollector.removeFigure(circle);
             //Then
-            Assertions.assertEquals(2, shapeCollector.getFiguresList().size());
+            Assertions.assertEquals(1, shapeCollector.getFiguresList().size());
         }
     }
 
